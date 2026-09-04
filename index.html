@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="Heading_1">This is my backpack</h1>
+    <h2>Find it here</h2>
+    	<a href="https://voodootactical.com">->Here<-</a>
+        <p>I actually get these for free. I bought one and got a lifetime warranty. This is probably my 8th one so far.</p>
+        	<img src="My_Specific_Backpack.webp" alt="Image from website of the specific backpack that I currently have.">
+            <ul>
+                <li>Its supposed to be a two-in-one bag, but I haven't found how to separate it so far.</li>
+                <li>It came with a water bladder for quick hydration on hikes and runs.</li>
+                <li>It doesn't have the most space for big things to fit in.</li>
+            </ul>
+            <div>
+                (This is the first time I've had this model backpack)
+            </div>
+            <button id="EndButton">End Button</button>
+            <script>
+                const button = document.getElementById('EndButton');
+                button.addEventListener('click', function() {
+                    alert('Exercise 1 Done!');
+                });
+                button.addEventListener('click', function() {
+                    const heading = document.getElementById('Heading_1');
+                    if (heading.style.textDecoration === 'underline') {
+                        heading.style.textDecoration = 'none';
+                    } else {
+                        heading.style.textDecoration = 'underline';
+                    }
+                });
+            </script>
+</body>
+</html>
