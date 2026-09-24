@@ -5,6 +5,13 @@ body {
 h1 {
     font-size: 59px;
 }
+h2 {
+    background-color: #d157d1;
+    width: 100px;
+    border: 4px dashed rgb(38, 197, 157);
+    padding: 30px;
+    margin: 20px;
+}
 #Backpack {
     color: #00ff00;
 }
