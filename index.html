@@ -3,35 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Original Website Test</title>
+    <title>My Real Class Website</title>
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <h1 id="Heading_1">This is my 
-        <div id="Backpack">
-            <span id="Backpack_Span">backpack</span>
-        </div></h1>
-    <h2>Find it here</h2>
-    	<a href="https://voodootactical.com">->Here<-</a>
+    <a href="holy-grail.html">View My Holy Grail Layout</a>
+    <a href="interaction.html">Javascript</a>
+    <h1 id="Heading_1">My name is Victor Herrera. </h1>
+    <h2>This is my 
+        <div id="Website">
+            <span id="Website_Span">class website</span>
+        </div></h2>
+    <h3>Its my first attempt at making something like this</h3>
+    	<a href="https://pointerpointer.com" target="_blank" >What's The Point?</a>
         <p>
-            <div class="Paragraph">I actually get these for free.</div> 
-            <div class="Paragraph">I bought one and got a lifetime warranty.</div>
-            <div class="Paragraph">This is probably my 8th one so far.</div>
+            <div class="Paragraph">I've purposely made these design choices as I wanted to experiment.</div> 
+            <div class="Paragraph">I will most likely make some changes as I get a better sense of what I want this to look like.</div>
+            <div class="Paragraph">I'll be adding some pictures of some the drawings I've made to show what I like doing</div>
         </p>
-        	<img src="My_Specific_Backpack.webp" alt="Image from website of the specific backpack that I currently have.">
+        	<img id="Ichigo_Drawing" src="Ichigo_Drawing.png" alt="Drawing of Ichigo from Bleach.">
+            <img id="Deku_Drawing" src="Deku_Drawing.png" alt="Drawing of Deku from My Hero Academia.">
             <ul>
-                <li>Its supposed to be a two-in-one bag, but I haven't found how to separate it so far.</li>
-                <li>It came with a water bladder for quick hydration on hikes and runs.</li>
-                <li>It doesn't have the most space for big things to fit in.</li>
+                <li>As can be seen, I favor black and white, paper and pencil drawings.</li>
+                <li>I enjoy how easy it is to get into and how much detail you can add.</li>
+                <li>I haven't experimented with color yet, but I am interested in trying it out eventually.</li>
             </ul>
             <div>
-                (This is the first time I've had this model backpack)
+                (This is a button that will alert you when clicked and underline the first heading.)
             </div>
             <button id="EndButton">End Button</button>
             <script>
                 const button = document.getElementById('EndButton');
                 button.addEventListener('click', function() {
-                    alert('Exercise 1 Done!');
+                    alert('Home Page End Reached!');
                 });
                 button.addEventListener('click', function() {
                     const heading = document.getElementById('Heading_1');
@@ -42,6 +46,5 @@
                     }
                 });
             </script>
-            <a href="holy-grail.html">View My Holy Grail Layout</a>
 </body>
 </html>
